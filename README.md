@@ -1,6 +1,6 @@
 # Extensions/Plugins
 
-Here is an example plugin
+Here is an example plugin.
 ```js
   document.getElementById("pluginMenu").innerHTML += `
   <div class="card mt-3">
@@ -11,3 +11,9 @@ Here is an example plugin
   </div>
   `
 ```
+Here is how to structure your plugin.
+
+- Plugin
+  - plugin.js
+
+Then you can link it in Lunar with the URL!
